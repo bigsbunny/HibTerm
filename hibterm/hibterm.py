@@ -131,7 +131,7 @@ class Student(object):
         click.echo(click.style(
             f"Posted on: {self.notice_compilation[sl_no-1]['notice_date']}\n", fg="green"))
         for tag in test:
-            if tag.name == 'p':
+            if tag.name not in ['table', 'ul', 'ol']:
                 formatted = re.sub(re.compile(r'<.*?>'), '', str(tag))
                 # formatted = re.sub(re.compile(r'<\/?\S*\s*\S*>'),'',formatted)
                 click.echo(click.style(
