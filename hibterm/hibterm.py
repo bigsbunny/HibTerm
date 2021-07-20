@@ -147,6 +147,11 @@ class Student(object):
                     click.echo()
                 click.echo()
 
+            elif tag.name in ['ul', 'ol']:
+                for li in tag.find_all('li'):
+                    click.echo(click.style(f"-->  {re.sub(re.compile(r'<.*?>'), '', str(li))}",fg="yellow"))
+                click.echo()
+
         if has_attachment:
             self.download_attachment(notice_id)
 
