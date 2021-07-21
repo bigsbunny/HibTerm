@@ -15,7 +15,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'hibterm = mainfol.test:test',
+            'hibterm = hibterm.cli:test',
         ],
     },
 )
