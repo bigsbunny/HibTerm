@@ -18,7 +18,7 @@ HibTerm is a CLI tool for fetching notices from IIIT Bhubaneswar\'s official col
 
 
 ## How to use :
-After installing **HibTerm** on your system, you can launch it from the terminal by typing`hibterm`after the prompt. Then you will be prompted to enter your **Student ID and Password**. After you provide it with the correct credentials, HibTerm will return an **ordered list** of all the official notices. Then you will be prompted to enter the index number of the notice that you want to view. After typing in the index number of the notice you will be able to view the notice contents. If the respective notice includes an attachment, then it will be **automatically downloaded** to the user\'s `~/Downloads`directory.
+After installing **HibTerm** on your system, you can launch it from the terminal by typing `hibterm` after the prompt. Then you will be prompted to enter your **Student ID and Password**. After you provide it with the correct credentials, HibTerm will return an **ordered list** of all the official notices. Then you will be prompted to enter the index number of the notice that you want to view. After typing in the index number of the notice you will be able to view the notice contents. If the respective notice includes an attachment, then it will be **automatically downloaded** to the user\'s `~/Downloads` directory.
 
 ## About HibTerm :
 *Well, I would say that HibTerm is still a **WIP**, as I plan on extending it\'s functionality to achieve various other stuff too, that cover the various aspects of M-UMS.*
