@@ -1,7 +1,7 @@
 import click
 from click.termui import prompt
 
-import hibterm
+import hibterm.hibterm as hibterm
 
 
 @click.command()
@@ -17,5 +17,5 @@ def test(id, password):
             "Incorrect Credentials! Try again.\n", fg="bright_red"))
 
 
-if __name__ == '__main__':
-    test()
+# if __name__ == '__main__':
+#     test()
